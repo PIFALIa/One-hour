@@ -1,0 +1,120 @@
+# Игнорирование стандартных папок Unity
+
+# Build outputs
+Temp/
+Library/
+Logs/
+
+# Asset cache and intermediate build data
+obj/
+*.boo.csproj
+*.csproj.user
+*.pidb
+*.pidb.meta
+*.suo
+*.sln.docstates*
+*.tmp
+*.userprefs
+*.pidblist
+
+# Visual Studio temporary files
+*.suo
+*.user
+*.ncrunch*
+*.ndoc
+*.dbmdl
+*.opendb
+*.cache
+*.lock.wpf
+*.resharper.*
+
+# MonoDevelop user preferences
+.project
+.solution
+
+# VSTools for Unity generated Visual Studio solution files
+*.csproj
+*.unityproj
+*.sln
+*.svn
+*.svn-base
+*.vcproj
+*.doxygen.*
+*.usersettings
+*.manifest
+*.xml
+*.xaml
+*.meta
+
+# Cache files from IL2CPP builds
+il2cpp-output/*
+
+# Files created by Unity Collaborate service
+CollaborateSettings.asset
+CollaborateUserSettings.asset
+collab-staging-area
+collab-cache
+collab-backups
+
+# Artifacts folder in Unity's new package manager system
+Packages/*/.bin
+Packages/*/*.asmdef
+Packages/*/*.dll
+Packages/*/*.pdb
+Packages/*/*.json
+Packages/*/*.mdf
+Packages/*/*.metafile
+Packages/*/*.cache
+Packages/*/*.packagemanifest
+Packages/*/*.upm.lockfile
+Packages/*/*.metadata
+Packages/*/*.response
+
+# Package manifest file metadata
+package-manifest.json.meta
+
+# Auto-generated files
+GeneratedCS/
+
+# User settings & preferences
+PlayerPrefs.dat
+EditorSettings.asset
+ProjectSettings.asset
+
+# Ignore logs and crash reports
+*.log
+*.crash-reporter.log
+
+# Ignore specific platform build folders
+Android/
+iOS/
+WebGL/
+StandaloneWindows/
+StandaloneWindows64/
+Linux/
+macOS/
+UniversalWindowsPlatform/
+
+# Editor GUI layout files
+LayoutCache.xml
+WindowLayouts.layout
+
+# Ignore all .DS_Store files on macOS
+.DS_Store
+
+# Thumbnails cache
+thumbs.db
+
+# IntelliJ IDEA project configuration
+.idea/
+*.iml
+
+# Unity-specific cache directories
+AssetDatabase*
+ArtGraphDB
+Previews/
+NavMeshCache/
+TerrainDataCache/
+GlobalIlluminationData.gi
+LightmapSnapshot.gi
+PhysicsSnapshot.phy
