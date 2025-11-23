@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638934333349151096
-    m_Hash: 1432241229
+      ticks: 638994765563429955
+    m_Hash: 893615414
   m_LockFileStatus:
     m_FilePath: C:/projects/matvei _D/game/One-hour/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638934333349320749
-    m_Hash: 2929865183
+      ticks: 638994765563449904
+    m_Hash: 2756700132
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -226,6 +226,9 @@ m_ResolvedPackages:
     - 2.9.1
     - 2.9.2
     - 2.9.3
+    - 2.10.0
+    - 2.10.1
+    - 2.10.2
     compatible:
     - 2.4.4
     - 2.5.1
@@ -237,6 +240,9 @@ m_ResolvedPackages:
     - 2.9.1
     - 2.9.2
     - 2.9.3
+    - 2.10.0
+    - 2.10.1
+    - 2.10.2
     recommended: 2.4.4
     deprecated: []
   dependencies: []
@@ -513,6 +519,7 @@ m_ResolvedPackages:
     - 3.2.0-pre.11
     - 3.2.0-pre.12
     - 3.2.0-pre.13
+    - 3.2.0-pre.14
     - 4.0.0-pre.1
     - 4.0.0-pre.2
     compatible:
@@ -533,6 +540,7 @@ m_ResolvedPackages:
     - 3.2.0-pre.11
     - 3.2.0-pre.12
     - 3.2.0-pre.13
+    - 3.2.0-pre.14
     - 4.0.0-pre.1
     - 4.0.0-pre.2
     recommended: 3.0.9
@@ -888,13 +896,15 @@ m_ResolvedPackages:
     - 1.9.6
     - 1.9.7
     - 1.9.8
+    - 1.9.9
     compatible:
     - 1.9.4
     - 1.9.5
     - 1.9.6
     - 1.9.7
     - 1.9.8
-    recommended: 1.9.8
+    - 1.9.9
+    recommended: 1.9.9
     deprecated:
     - 1.8.0-pre.1
   dependencies:
@@ -2919,10 +2929,12 @@ m_ResolvedPackages:
     - 2.0.21
     - 2.0.22
     - 2.0.23
+    - 2.0.25
     compatible:
     - 2.0.22
     - 2.0.23
-    recommended: 2.0.23
+    - 2.0.25
+    recommended: 2.0.25
     deprecated: []
   dependencies:
   - name: com.unity.test-framework
@@ -3033,14 +3045,17 @@ m_ResolvedPackages:
     - 3.0.35
     - 3.0.36
     - 3.0.37
+    - 3.0.38
     compatible:
     - 3.0.31
     - 3.0.34
     - 3.0.35
     - 3.0.36
     - 3.0.37
-    recommended: 3.0.37
-    deprecated: []
+    - 3.0.38
+    recommended: 3.0.38
+    deprecated:
+    - 3.0.37
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6
@@ -3251,10 +3266,12 @@ m_ResolvedPackages:
     - 1.1.1
     - 1.2.2
     - 1.2.3
+    - 1.2.4
     compatible:
     - 1.2.2
     - 1.2.3
-    recommended: 1.2.3
+    - 1.2.4
+    recommended: 1.2.4
     deprecated: []
   dependencies: []
   resolvedDependencies: []
@@ -3567,9 +3584,11 @@ m_ResolvedPackages:
     - 2.0.0
     - 2.0.1
     - 2.1.0
+    - 2.1.1
     compatible:
     - 2.0.1
     - 2.1.0
+    - 2.1.1
     recommended: 2.0.1
     deprecated: []
   dependencies: []
